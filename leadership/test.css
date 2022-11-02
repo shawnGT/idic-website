@@ -1,0 +1,286 @@
+.banner{
+	margin-right: 20px;
+}
+															/*index*/
+
+#contentBody{
+
+	}
+.post-header {
+
+	font-size: 20px;
+	padding-left:3px;
+	margin-bottom:4px;
+	
+	
+}
+.date{
+	font-size: 20px;
+	margin-bottom: 0px;
+	display: none;
+}
+.author{
+	font-size: 15px;
+	
+}
+.entryClear{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		display: flex;
+		max-width:2000px;
+		flex-direction: column;		
+		
+	}
+.entryClear  p{
+	margin:10px
+	
+}
+.comments{
+	margin-left:3px;
+}
+h2{
+	margin-bottom: 0px;
+	
+	}
+															/*about*/
+
+.welcomeMessage{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+.mission{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+		margin-right: 1%;
+	}
+.mission > h3{
+		display: flex;
+		align-content: center;
+	}
+.mission > p{
+		margin: 5px;
+		
+	}
+	
+.partA , .partB{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		float: left;
+		width: 49%;
+		margin-bottom: 5%;
+		
+		
+		
+	}
+.partB > p {
+	padding-left: 1%;
+	padding-right: 1%;
+	}
+.partA > p {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	
+.partA{
+		margin-right: 1%;
+	}
+footer{
+		width: 100%;
+		
+	}
+.charterHeader{
+		margin-left: 45%;
+		margin-right: 40%;
+	}
+.charterPartTitle{
+		display: flex;
+		justify-content: center;
+	}
+															/*welcome message on about page*/
+.aboutWelcome{
+	
+	
+		justify-content:center ;
+		border: 2px silver solid;
+		border-radius: 12px;
+		margin-bottom: 5%;
+		display: flex;
+		align-items:center ;
+		flex-direction: column;
+	
+	
+	}
+.aboutWelcome > p + p{
+		max-width: 2000px;
+		display: flex;
+		align-self: center;
+	}
+															/* boxes the images and paragraphs are in on about*/
+.imgDes {
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		border-radius: 12px;
+		max-height: 800px;
+		
+	}
+															/*invisible container containing the three boxes on about*/
+.aboutImgBox{
+		display: flex;	
+		justify-content: space-around;
+		flex-direction: row;
+		align-content: center;	
+	}
+															/*this is where the words like Respect, Integrity, Sovereignty are located*/
+.imgDes > span {
+		display: flex;
+		align-self: center;
+		justify-content: space-around;
+		align-self: center;
+		color: #ffcc33;
+		text-decoration: underline;
+		
+	}
+															/*the paragraphs in the box on about*/
+.imgDes p{
+		font-size: 20px;
+		margin-bottom: 2px;
+		display: flex;
+		align-items: flex-start;
+		align-items: center;
+		color: #ffcc33;
+		
+		
+	
+	}
+															/*container for the images on about*/
+figure{
+		width: 300px;
+		padding: 10px;
+	}
+															/* the actual images on about*/
+.imgDes > img{
+		display: flex;
+		align-self: center;
+		justify-content: space-around;
+	
+	}
+															/* invisible container for the paragraphs in the box on about*/
+.imgP{
+		height: 400px;
+		display: flex;
+		align-self: center;
+		flex-direction: column;
+		width: 350px;
+		
+	}
+#pageBreak {
+		border-top: solid silver 2px;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+															/*charter*/
+h{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+.mission{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+		margin-right: 1%;
+	}
+.mission > h3{
+		display: flex;
+		align-content: center;
+	}
+.mission > p{
+		margin: 5px;
+		
+	}
+	
+.partA , .partB{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		float: left;
+		width: 49%;
+		margin-bottom: 5%;
+		
+		
+		
+	}
+.partB > p {
+	padding-left: 1%;
+	padding-right: 1%;
+	}
+.partA > p {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	
+.partA{
+		margin-right: 1%;
+	}
+footer{
+		width: 100%;
+		
+	}
+.charterheader{
+		margin-left: 45%;
+		margin-right: 40%;
+	}
+.charterPartTitle{
+		display: flex;
+		justify-content: center;
+	}
+															/*Leadership*/
+#contentBody1{
+		background:#444a77;
+		border: silver solid 2px;
+		border-radius: 12px;
+		color: #ffcc33;
+		max-width: 1000px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-self: center;
+	}
+.comments1{
+		display: none;
+	}
+.post-header1{
+		display: flex;
+		justify-content: center;
+		font-size: 40px;
+	}
+.entryClear1{
+		border-bottom: silver 2px solid;
+		display: flex;
+	}
+
