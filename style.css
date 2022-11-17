@@ -179,60 +179,54 @@ h2{
 #pageNav a{
 	color:#444a77;
 }
-	/*about*/
-#schedule{
-	background:#444a77;
-	color: #ffcc33;
-	border: silver solid 2px;
+	/*schedule*/
+#welcomeMessageSched{
+	margin-left: 200px;
+	color: #f70;
 	
-	
-		
-	
-}
-#schedule span{
-	
-	
-	
-		
-	
-}
-
-.sched{
-	display: flex;
-	flex-direction: column;
-	width: 10%;
-	
-	
-	
-	
-	
-}
-.sched  span{
-	padding-top: 11px;
-	font-size: large;
-}
-.schedDeetsList{
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	
-	
-	
-}
-.schedDeets{
-	display: flex;
-	padding-top: 20px;
-	
-	
+	padding-bottom: 60px;
 	
 }
 .schedBody{
+		margin-left: 10%;
+}	
+#schedule{
+	background:#444a77;
+	color: #ffcc33;
+	border: 2px silver solid;
+	border-radius: 5px;
+	max-width: 650px;
+	
+}	
+.schedDeetsList{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+.schedDeets{
+	margin-top: 5px;
+	margin-bottom: 5px;
+
 	
 	
 }
-.sched , .schedDeetsList{
-	
+.schedDay{
 	float: left;
+	width:150px;
+	border-right: solid silver 2px;
+}
+
+	
+
+.schedActivities{
+	
+
+}
+.schedActivities span{
+	padding-left: 10px;
+
+
 }
 
 	/*charter*/
@@ -252,6 +246,7 @@ h{
 		flex-wrap: wrap;
 		margin-bottom: 20px;
 		margin-right: 1%;
+		max-width: 1200px;
 	}
 .mission > h3{
 		display: flex;
@@ -259,6 +254,7 @@ h{
 	}
 .mission > p{
 		margin: 5px;
+		max-width: 1700px;
 		
 	}
 	
@@ -290,35 +286,74 @@ footer{
 		width: 100%;
 		
 	}
-.charterheader{
-		margin-left: 45%;
-		margin-right: 40%;
+.charterHeader{
+	display: flex;
+	justify-content: center;
+	align-self: stretch;
+	max-width: 1200px;
+	color: #f70;
+	
+	padding-bottom: 60px;
+	margin-left: 10%;
+	margin-right: 10%;
 	}
 .charterPartTitle{
 		display: flex;
 		justify-content: center;
 	}
 /*Leadership*/
+.pageBanner{
+	margin-left: 40% ;
+	color: #f70;
+	
+}
+.leaderContent{
+	
+}
+.leaderContent > h2{
+	margin-left: 100%;
+}
 #leadershipBox{
-		background:#444a77;
-		color: #ffcc33;
-		border: silver solid 2px;
-		border-radius: 12px;
-		max-width: 1000px;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		justify-self: center;
-	}
-.post-header1{
-		display: flex;
-		justify-content: center;
-		font-size: 40px;
-	}
-.entryClear1{
-		border-bottom: silver 2px solid;
-		display: flex;
-	}
+	margin-top: 5%;
+	margin-left: 30%;
+}
+#leader{
+	margin-top: 20px;
+	margin-bottom: 10px;
+		
+}
+.leaderName{
+	margin-bottom: 2%;
+	font-size: 40px;
+	color:  #78f;
+	margin-left: 64px;
+
+	
+}
+.leaderinfoBox{
+	display: flex;
+	background:#444a77;
+	color: #ffcc33;
+	border: silver solid 2px;
+	border-radius: 12px;
+	min-height: 240px;
+	max-width: 700px;
+}
+.leaderImage{
+	margin: 30px;
+	border-radius: 6px;
+	min-height: 205px;
+	padding: 0px;
+	
+}
+.leaderBreak{
+	border-left: 2px solid silver;
+	margin-left: 1px;
+}
+.leaderDescription{
+ margin-left: 5%;
+
+}
 
 /*media query================================================================*/
 
@@ -350,18 +385,121 @@ footer{
 	   }
 
 /*schedule*/
-  	#schedule span{
-		font-size: small;
-	}
-	.schedDeets{
-		display: flex;
-		padding-top: 15.99px;
-		margin-left: 30px;
+#welcomeMessageSched{
+	margin-left: 150px;
+	color: #f70;
+	
+	padding-bottom: 60px;
+	
+}
+.schedBody{
+	margin-left: 0%;
+}	
+#schedule{
+	background:#444a77;
+	color: #ffcc33;
+	border: 2px silver solid;
+	border-radius: 5px;
+	max-width: 650px;
+	
+}	
+.schedDeetsList{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+.schedDeets{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	
+	
+}
+.schedDay{
+	float: left;
+	width: 100px;
+	border: none;
+	
+	
+	
+}
+
+	
+
+.schedActivities{
+	border-bottom: solid silver 2px;
+	border-top: 2px silver solid;
+
+}
+.schedActivities span{
+	padding-left: 10px;
+
+
+}
+
+/*Leadership*/
+.pageBanner{
+	margin-left: 40% ;
+	
+}
+.leaderContent{
+	margin-left: 0%;
+	margin-right: 3%;
+	width: 100%;
+}
+.leaderContent > h2{
+	margin-left: 100%;
+}
+#leadershipBox{
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 1%;
+}
+#leader{
+	margin-top: 20px;
+	margin-bottom: 10px;
 		
-		
-		
-	}
-  }
+}
+.leaderName{
+	margin-bottom: 2%;
+	font-size: 40px;
+	color:  #78f;
+	margin-left: 64px;
+
+	
+}
+.leaderinfoBox{
+	display: flex;
+	background:#444a77;
+	color: #ffcc33;
+	border: silver solid 2px;
+	border-radius: 12px;
+	min-height: 240px;
+	max-width: 700px;
+}
+.leaderImage{
+	margin: 30px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border-radius: 6px;
+	min-height: 205px;
+	padding: 0px;
+	
+}
+.leaderBreak{
+	border-left: 2px solid silver;
+	margin-left: 1px;
+}
+.leaderDescription{
+ margin-left: 5%;
+ margin-right: 3%
+
+}
+}
 
 /*mid-size screen media query==================================*/
 @media only screen and (min-width:1764px){
@@ -399,7 +537,7 @@ footer{
 		margin-right: 20px;
 		margin-top: 25px;
 	}
-	.articletextBox, p{
+	.articletextBox > p{
 		max-width: 550px;
 		margin-left: 50px;
 		
@@ -461,6 +599,128 @@ footer{
 		margin-right: 10%;
 		
 	}
+	/*Leadership*/
+	.pageBanner{
+		margin-left: 45% ;
+		
+	}
+	.leaderContent{
+	
+		
+		
+		
+	
+	
+	}
+	.leaderContent > h2{
+		
+	}
+	.topBox{
+		
+		
+	}
+	#leadershipBox{
+	
+	
+		display: flex;
+		margin-left: 5%;
+		margin-right: 20%;
+		
+		
+	
+		
+	}
+	#leader{
+		
+		padding-left: 5%;
+		
+		
+			
+	}
+	.leaderName{
+
+		font-size: 40px;
+		color:  #78f;
+		margin-left: 165px;
+	
+		
+	
+		
+	}
+	.leaderinfoBox{
+		
+		background:#444a77;
+		color: #ffcc33;
+		border: silver solid 2px;
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 400px;
+		min-width: 400px ;
+		min-height: 750px;
+		
+		
+	}
+	.leaderImage{
+		min-height: 250px;
+	}
+	.leaderBreak{
+		border-top: 2px solid silver;
+		
+		width: 100%;
+	}
+	.leaderDescription{
+		width: 250px;
+		margin-top: 30px;
+		margin-right: 10%;
+		
+
+	
+	}
+	/*schedule*/
+	.schedBody{
+		margin-left: 30%;
+	}
+	#schedule{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 5px;
+		max-width: 650px;
+		
+		
+	}	
+	.schedDeetsList{
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		
+	}
+	.schedDeets{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	
+		
+		
+	}
+	.schedDay{
+		float: left;
+		width:150px;
+		border-right: solid silver 2px;
+	}
+	
+		
+	
+	.schedActivities{
+		
+	
+	}
+	.schedActivities span{
+		padding-left: 10px;
+	
+	
+	}	
 }
 
 
@@ -511,7 +771,7 @@ footer{
 		margin-right: 50px;
 		
 	}
-	.articletextBox, p{
+	.articletextBox > p{
 		max-width: 550px;
 		margin-left: 50px;
 		
@@ -571,5 +831,140 @@ footer{
 		
 		margin-right: 370px;
 		
+	}
+	/*Leadership*/
+	.pageBanner{
+	margin-left: 45% ;
+	
+	}
+	.leaderContent{
+	margin-left: 10%
+	
+	
+
+
+	}
+	.leaderContent > h2{
+		margin-left: 100%;
+	}
+	
+	.topBox{
+	
+	
+	}
+	#leadershipBox{
+		margin-top: 5%;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		flex-wrap: wrap;	
+	}
+	#leader{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 2%;
+	}
+
+	.leaderName{
+		margin-bottom: 2%;
+		font-size: 40px;
+		color:  #78f;
+		margin-left: 40%;	
+	}
+	.leaderinfoBox{
+		display: flex;
+		background:#444a77;
+		color: #ffcc33;
+		border: silver solid 2px;
+		border-radius: 12px;
+		min-height: 700px;
+		max-width: 1000px;	
+	}
+	.leaderImage{
+		margin: 30px;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		border-radius: 6px;
+		min-height: 205px;
+		padding: 0px;
+	}
+	.leaderBreak{
+		border-left: 2px solid silver;
+		margin-left: 1px;
+	}
+	.leaderDescription{
+ 		margin-left: 5%;
+ 		margin-right: 3%
+	}
+/*charter*/
+.charterHeader{
+	display: flex;
+	justify-content: center;
+	align-self: stretch;
+	max-width: 1200px;
+	color: #f70;
+	
+	padding-bottom: 60px;
+	margin-left: 20%;
+	
+}
+	h3{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.mission{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+		margin-left: 20%
+	}
+	.mission > h3{
+		display: flex;
+		align-content: center;
+	}
+	.mission > p{
+		margin: 5px;
+	
+	}
+
+	.partA , .partB{
+		background:#444a77;
+		color: #ffcc33;
+		border: 2px silver solid;
+		border-radius: 12px;
+		float: left;
+		width: 49%;
+		margin-bottom: 5%;
+	
+	
+	
+	}
+	.partB > p {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	.partA > p {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+	.partA{
+		margin-right: 1%;
+	}
+	footer{
+		width: 100%;
+	
+	}
+
+	.charterPartTitle{
+	display: flex;
+	justify-content: center;
 	}
 }
